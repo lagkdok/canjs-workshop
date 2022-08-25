@@ -10,7 +10,7 @@
     "grunt-contrib-less": "^0.11.0",
     "grunt-contrib-watch": "^0.6.1",
     "require-can-renderers" : "^0.0.2",
-    "shelljs": "0.3.0",
+    "shelljs": "0.8.5",
     "jsesc": "^0.4.3"
   }
 }

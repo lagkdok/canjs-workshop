@@ -50,6 +50,6 @@
     }
   ],
   "dependencies": {
-    "grunt-cli": "~0.1.7"
+    "grunt-cli": "~1.0.0"
   }
 }

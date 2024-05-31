@@ -1,0 +1,15 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:minimatch:20160620':
+    - systemjs > es6-module-loader > traceur > glob > minimatch:
+        patched: '2024-05-31T07:32:05.420Z'
+        id: 'npm:minimatch:20160620'
+        path: systemjs > es6-module-loader > traceur > glob > minimatch
+  'npm:semver:20150403':
+    - systemjs > es6-module-loader > traceur > semver:
+        patched: '2024-05-31T07:32:05.420Z'
+        id: 'npm:semver:20150403'
+        path: systemjs > es6-module-loader > traceur > semver
